@@ -1,0 +1,146 @@
+body {
+    background-color: rgba(14,76,146,.2);
+    margin: 0;
+}
+#navbar {
+    background: rgba(15, 77, 146, .25);
+}
+.ul_nav{
+    list-style: none;
+}
+.nav_option{
+    display: inline-block;
+    margin: 0 120px;
+}
+.ul_nav .nav_option > ul{
+    display: none;
+}
+.ul_nav .nav_option:hover > ul{
+    display: block;
+}
+a {
+    color: #0F4D92;
+    font-weight: bold;
+}
+a:hover {
+    color: white;
+}
+.dropdown{
+    font: helvetica;
+    font-size: 22;
+    color: #0F4D92;
+}
+#header {
+    text-align: center;
+    background: url("http://tinyurl.com/qj52qq4");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+h1 {
+    position: relative;
+    top: 25px;
+    display: inline;
+    background: rgba(15, 77, 146, .7);
+    font-size: 100px;
+    text-align: center;
+    text-shadow:
+        -2px -2px 1px #0F4D92,
+        2px -2px 1px #0F4D92,
+        -2px 2px 1px #0F4D92,
+        2px 2px 1px #0F4D92;
+    color: white;
+    font-family: Yale;
+    border-style: solid;
+    border-width: 7px;
+    padding: 5px 20px 5px;
+    border-radius: 10px;
+}
+#pitch {
+    width: 55%;
+    background-color: rgba(15, 77, 146, .7);
+    color: white;
+    font: helvetica;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 80px auto 0 auto;
+}
+h2 {
+    font-size: 30px;
+    font-family: helvetica;
+}
+h3 {
+    font-size: 30px;
+    font-family: helvetica;
+}
+h4 {
+    font-size: 30px;
+    font-family: helvetica;
+}
+h5 {
+    font-size: 30px;
+    font-family: helvetica;
+}
+p {
+    font-size: 22px;
+    font: helvetica;
+}
+.Y_to_B {
+    float: left;
+    background-color: rgba(15,77,146,.8);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+    border-color: #0F4D92;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.B_to_Y {
+    float: right;
+    background-color: rgba(15,77,146,.8);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+    border-color: #0F4D92;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+#buttons {
+    width: 80%;
+    margin: 25px auto 25px;
+}
+button:hover {
+    color: #212182;
+}
+#schedule_YB {
+    float: left;
+}
+#schedule_BY {
+    float: right;
+}
+table {
+    display: none;
+    margin: 0 50px;
+}
+.testimonial {
+    color: #0F4D92;
+    font: helvetica;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+.testimonial_pics {
+    display: block;
+    border: 5px solid #0F4D92;
+    border-radius:10px;
+    margin: auto;
+    height:200px;
+    width: 600px;
+}
